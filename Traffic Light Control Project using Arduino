@@ -1,0 +1,81 @@
+Traffic Light Control Project using Arduino
+
+The Arduino Traffic Light Control Mini Project is fun and educational as well, because it teaches kids and beginners how to use the Arduino board in controlling traffic lights. 
+Using sensors and programming,you make the traffic lights change colors just like real ones do on the road. 
+The project allows students to learn about both electronics and programming in a hands-on, 
+interesting way, simulating the operation of traffic lights.
+So pick up your Arduino board and start building your own traffic light control system today!
+
+Code for Traffic Light Control Project using Arduino
+
+int red = 9;
+int yellow = 8;
+int green = 7;
+
+void setup(){
+  
+  pinMode(red, OUTPUT);
+  pinMode(yellow, OUTPUT);
+  pinMode(green,  OUTPUT);
+  
+}
+void loop(){
+digitalWrite(red, HIGH);
+ delay(15000);
+digitalWrite(red,  LOW);
+  
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow,  LOW);
+delay(500);
+
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow,  LOW);
+delay(500);
+
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow,  LOW);
+delay(500);
+  
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow, LOW);
+delay(500);
+  
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow, LOW);
+delay(500);
+  
+digitalWrite(green, HIGH);
+delay(20000);
+digitalWrite(green,  LOW);
+//  
+digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow,  LOW);
+delay(500);
+
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow,  LOW);
+delay(500);
+
+  digitalWrite(yellow, HIGH);
+delay(1000);  
+  digitalWrite(yellow, LOW);
+delay(500);
+  
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow, LOW);
+delay(500);
+  
+  digitalWrite(yellow, HIGH);
+delay(1000);
+  digitalWrite(yellow, LOW);
+delay(500);
+  
+}
